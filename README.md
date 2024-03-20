@@ -16,6 +16,7 @@ but the user retains full control.
 R is a free and open source language. If you do not have R installed, you can install R and R studio at the following links:
 
 ["R"](https://cran.rstudio.com/)
+
 ["R-studio"](https://posit.co/download/rstudio-desktop/)
 
 
@@ -30,6 +31,8 @@ R is a free and open source language. If you do not have R installed, you can in
 * Watch the R package tutorial.
 
 ## 📚  Resources 
-["Step-by-step instructions on how to make an R package"](https://www.youtube.com/watch?v=hxl1c8WRNiA)
-["R documentation"] (https://www.rdocumentation.org/)
-["R devtools"] (https://cran.r-project.org/web/packages/devtools/devtools.pdf)
+[Step-by-step instructions on how to make an R package](https://www.youtube.com/watch?v=hxl1c8WRNiA)
+
+[R documentation] (https://www.rdocumentation.org/)
+
+[R devtools] (https://cran.r-project.org/web/packages/devtools/devtools.pdf)
