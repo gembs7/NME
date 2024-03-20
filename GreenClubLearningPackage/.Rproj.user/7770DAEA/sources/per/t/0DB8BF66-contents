@@ -1,0 +1,18 @@
+Package: Test
+Type: Package
+Title: GreenClub NME
+Version: 0.1.0
+Authors@R: c(person("Nick", "Gembs", email = "ng334@cornell.edu", role = c("aut","cre")))
+Description: GreenClub Machine Learning PAckage
+License: GPL-2
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+LazyData: false
+Imports:
+    stats
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    dplyr
+Config/testthat/edition: 3
+

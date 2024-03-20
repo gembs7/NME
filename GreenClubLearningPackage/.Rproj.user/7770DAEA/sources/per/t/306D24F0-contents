@@ -1,0 +1,38 @@
+---
+title: "testing"
+author: "Nick Gembs"
+date: "2/6/2024"
+output: html_document
+---
+
+```{r}
+chi_square_test_of_independence <- function(observed_matrix) {
+  # expected frequencies
+  row_totals <- rowSums(observed_matrix)
+  col_totals <- colSums(observed_matrix)
+  total_observed <- sum(observed_matrix)
+  
+  expected_matrix <- outer(row_totals, col_totals) / total_observed
+  
+  # test statistic
+  chi_square_statistic <- sum((observed_matrix - expected_matrix)^2 / expected_matrix)
+  
+  # df
+  df <- (nrow(observed_matrix) - 1) * (ncol(observed_matrix) - 1)
+  
+  # p-value
+  p_value <- 1 - pchisq(chi_square_statistic, df)
+  
+  return(p_value)
+
+}
+```
+
+```{r}
+observed_matrix <- matrix(c(10, 20, 15, 25), nrow = 2, byrow = TRUE)
+observed_matrix
+```
+```{r}
+chi_square_test_of_independence(observed_matrix)
+```
+
