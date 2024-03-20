@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(Test)
+library(GreenClub)
 
-test_check("Test")
+test_check("GreenClub")

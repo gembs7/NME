@@ -1,6 +1,6 @@
 {
     "id": "DF704DBB",
-    "path": "~/GitHub/Test/tests/testthat/test_ChisqInd.R",
+    "path": "~/GitHub/NME/GreenClubLearningPackage/tests/testthat/test_ChisqInd.R",
     "project_path": "tests/testthat/test_ChisqInd.R",
     "type": "r_source",
     "hash": "3363348074",
